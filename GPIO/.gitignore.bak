@@ -6,7 +6,6 @@
 *.html
 *.log
 *.lso
-*.map
 *.mrp
 *.ncd
 *.ngc
@@ -22,12 +21,9 @@
 *.syr
 *.twr
 *.twx
-*.txt
 *.unroutes
 *.ut
-*.xise
 *.xml
-*.xpi
 *.xrpt
 *.xst
 *.xwbt

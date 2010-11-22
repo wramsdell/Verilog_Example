@@ -1,0 +1,5 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "LED_RED" LOC = P115;
+NET "CLK" LOC = P57;
