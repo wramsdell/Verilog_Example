@@ -24,24 +24,35 @@ In addition, the red and green LEDs may also be controlled via register write.  
 The GPIO and LED bits are logically grouped in register space by the pin's location in the port map; see FPGA shield documentation for port assignment.  The register assignment is as follows:
 
 Write registers:  
-Register address      Function  
-0x00                  PORT0 data, PORT0_0 = register LSB, PORT0_1 = register bit 1...PORT0_7 = register MSB.  
-0x01                  PORT1 data, arrangement as PORT0  
-0x02                  PORT2 data, arrangement as PORT0  
-0x03                  PORT3 data, arrangement as PORT0  
-0x04                  PORT4 data, arrangement as PORT0  
-0x05                  PORT5 data, arrangement as PORT0  
-0x06                  PORT6 data, arrangement as PORT0  
-0x07                  PORT7 data, arrangement as PORT0  
-0x08                  PORT0 OE, PORT0_0 = register LSB, PORT0_1 = register bit 1...PORT0_7 = register MSB  
-0x09                  PORT1 OE, arrangement as PORT0  
-0x0A                  PORT2 OE, arrangement as PORT0  
-0x0B                  PORT3 OE, arrangement as PORT0  
-0x0C                  PORT4 OE, arrangement as PORT0  
-0x0D                  PORT5 OE, arrangement as PORT0  
-0x0E                  PORT6 OE, arrangement as PORT0  
-0x0F                  PORT7 OE, arrangement as PORT0  
-0x10                  LED register, red LED = register LSB, green LED = register bit 1  
+    Register address      Function  
+    0x00                  PORT0 data, PORT0_0 = register LSB, PORT0_1 = register bit 1...PORT0_7 = register MSB.  
+    0x01                  PORT1 data, arrangement as PORT0  
+    0x02                  PORT2 data, arrangement as PORT0  
+    0x03                  PORT3 data, arrangement as PORT0  
+    0x04                  PORT4 data, arrangement as PORT0  
+    0x05                  PORT5 data, arrangement as PORT0  
+    0x06                  PORT6 data, arrangement as PORT0  
+    0x07                  PORT7 data, arrangement as PORT0  
+    0x08                  PORT0 OE, PORT0_0 = register LSB, PORT0_1 = register bit 1...PORT0_7 = register MSB  
+    0x09                  PORT1 OE, arrangement as PORT0  
+    0x0A                  PORT2 OE, arrangement as PORT0  
+    0x0B                  PORT3 OE, arrangement as PORT0  
+    0x0C                  PORT4 OE, arrangement as PORT0  
+    0x0D                  PORT5 OE, arrangement as PORT0  
+    0x0E                  PORT6 OE, arrangement as PORT0  
+    0x0F                  PORT7 OE, arrangement as PORT0  
+    0x10                  LED register, red LED = register LSB, green LED = register bit 1  
+
+Read registers:  
+    Register address      Function  
+    0x00                  PORT0 input, PORT0_0 = register LSB, PORT0_1 = register bit 1...PORT0_7 = register MSB.  
+    0x01                  PORT1 input, arrangement as PORT0  
+    0x02                  PORT2 input, arrangement as PORT0  
+    0x03                  PORT3 input, arrangement as PORT0  
+    0x04                  PORT4 input, arrangement as PORT0  
+    0x05                  PORT5 input, arrangement as PORT0  
+    0x06                  PORT6 input, arrangement as PORT0  
+    0x07                  PORT7 input, arrangement as PORT0  
 
 This core is resident on the Netduino I2C bus at address 0x3C.  All register writes and reads are two bytes each, and of the form "Register Address", "Data".
 
