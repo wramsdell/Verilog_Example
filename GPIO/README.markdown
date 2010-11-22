@@ -58,7 +58,7 @@ This core is resident on the Netduino I2C bus at address 0x3C.  All register wri
 
 Examples:
 ---------
-##Pin Write -- sets pin 0 of port 0 high
+###Pin Write -- sets pin 0 of port 0 high
 
     //Initialize I2C port
     int I2CClockRateKhz = 400;
@@ -84,7 +84,7 @@ Examples:
     };
     FPGA.Execute(transaction, 1000); //Execute the write, timeout after 1000ms
 
-##Pin read -- Reads the state of PORT0_0
+###Pin read -- reads the state of pin 0 of port 0
 
     //Initialize I2C port
     int I2CClockRateKhz = 400;
