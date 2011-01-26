@@ -104,7 +104,7 @@ end
 always @(posedge UsClk) begin
   if (PWM_Count==20000) begin
     PWM_Count <= 14'h00;
-	 Port0_int[0]<=8'hFF;
+	 Port0_int<=8'hFF;
   end
   else
     PWM_Count <= PWM_Count+1;

@@ -101,7 +101,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1296028063" xil_pn:in_ck="-5342895506470739316" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-8679202193640259107" xil_pn:start_ts="1296028056">
+    <transform xil_pn:end_ts="1296030134" xil_pn:in_ck="-5342895506470739316" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-8679202193640259107" xil_pn:start_ts="1296030127">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -123,7 +123,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1296028068" xil_pn:in_ck="-4043629645177066054" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="6142688834213440409" xil_pn:start_ts="1296028063">
+    <transform xil_pn:end_ts="1296030137" xil_pn:in_ck="-4043629645177066054" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="6142688834213440409" xil_pn:start_ts="1296030134">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="PWM.bld"/>
@@ -132,7 +132,7 @@
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1296028072" xil_pn:in_ck="-4043629602558623077" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="6608043158038856776" xil_pn:start_ts="1296028068">
+    <transform xil_pn:end_ts="1296030141" xil_pn:in_ck="-4043629602558623077" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="6608043158038856776" xil_pn:start_ts="1296030137">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="PWM.pcf"/>
@@ -145,9 +145,8 @@
       <outfile xil_pn:name="PWM_usage.xml"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1296028092" xil_pn:in_ck="104630321271330708" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-3620386074766820064" xil_pn:start_ts="1296028072">
+    <transform xil_pn:end_ts="1296030160" xil_pn:in_ck="104630321271330708" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-3620386074766820064" xil_pn:start_ts="1296030141">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="PWM.ncd"/>
       <outfile xil_pn:name="PWM.pad"/>
@@ -160,7 +159,7 @@
       <outfile xil_pn:name="PWM_par.xrpt"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1296028096" xil_pn:in_ck="106815308887" xil_pn:name="TRANEXT_bitFile_spartan3a" xil_pn:prop_ck="-426368325978129584" xil_pn:start_ts="1296028092">
+    <transform xil_pn:end_ts="1296030164" xil_pn:in_ck="106815308887" xil_pn:name="TRANEXT_bitFile_spartan3a" xil_pn:prop_ck="-426368325978129584" xil_pn:start_ts="1296030160">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="PWM.ut"/>
@@ -171,7 +170,7 @@
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1296028092" xil_pn:in_ck="-4043635228193096041" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1296028089">
+    <transform xil_pn:end_ts="1296030160" xil_pn:in_ck="-4043635228193096041" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1296030157">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="PWM.twr"/>
