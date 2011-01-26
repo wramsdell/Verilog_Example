@@ -8,5 +8,29 @@
 <!-- Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1648" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/FPGA_Projects/Verilog_Example/GPIO/GPIO.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1648" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/FPGA_Projects/Verilog_Example/GPIO/OctalTristateIO.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1648" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/FPGA_Projects/Verilog_Example/GPIO/i2cSlave.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/FPGA_Projects/Verilog_Example/GPIO/i2cSlave.v</arg>&quot; Line <arg fmt="%d" index="2">45</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/FPGA_Projects/Verilog_Example/GPIO/i2cSlave_define.v&apos; in file &quot;C:/FPGA_Projects/Verilog_Example/GPIO/i2cSlave.v&quot; line 45
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1648" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/FPGA_Projects/Verilog_Example/GPIO/serialInterface.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/FPGA_Projects/Verilog_Example/GPIO/serialInterface.v</arg>&quot; Line <arg fmt="%d" index="2">55</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/FPGA_Projects/Verilog_Example/GPIO/timescale.v&apos; in file &quot;C:/FPGA_Projects/Verilog_Example/GPIO/serialInterface.v&quot; line 55
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/FPGA_Projects/Verilog_Example/GPIO/serialInterface.v</arg>&quot; Line <arg fmt="%d" index="2">56</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/FPGA_Projects/Verilog_Example/GPIO/i2cSlave_define.v&apos; in file &quot;C:/FPGA_Projects/Verilog_Example/GPIO/serialInterface.v&quot; line 56
+</arg>
+</msg>
+
 </messages>
 

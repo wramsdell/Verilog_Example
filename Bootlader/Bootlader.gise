@@ -75,6 +75,7 @@
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1290645951" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1290645951">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1290645951" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="7381301372407765738" xil_pn:start_ts="1290645951">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -134,6 +135,8 @@
     <transform xil_pn:end_ts="1290645968" xil_pn:in_ck="-9194175520273622089" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="6608043158038856776" xil_pn:start_ts="1290645962">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="FPGA_Shield_Bootloader_Top.pcf"/>
       <outfile xil_pn:name="FPGA_Shield_Bootloader_Top_map.map"/>
       <outfile xil_pn:name="FPGA_Shield_Bootloader_Top_map.mrp"/>

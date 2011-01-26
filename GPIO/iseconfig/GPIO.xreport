@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2010-11-21T23:41:16</DateModified>
+  <DateModified>2010-11-24T16:44:04</DateModified>
   <ModuleName>GPIO</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/FPGA_Projects/Verilog_Examples/GPIO/iseconfig/GPIO.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/FPGA_Projects/Verilog_Examples/GPIO</ImplementationReportsDirectory>
+  <SavedFilePath>C:/FPGA_Projects/Verilog_Example/GPIO/iseconfig/GPIO.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/FPGA_Projects/Verilog_Example/GPIO\</ImplementationReportsDirectory>
   <DateInitialized>2010-11-21T23:41:16</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

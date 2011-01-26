@@ -1,0 +1,16 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "Port0[0]" LOC = P76;
+NET "Port0[1]" LOC = P82;
+NET "Port0[2]" LOC = P85;
+NET "Port0[3]" LOC = P90;
+NET "Port0[4]" LOC = P92;
+NET "Port0[5]" LOC = P96;
+NET "Port0[6]" LOC = P101;
+NET "Port0[7]" LOC = P104;
+NET "Clk" LOC = P57;
+NET "SCL" LOC = P31;
+NET "SDA" LOC = P32;
+NET "LED_Green" LOC = P117;
+NET "LED_Red" LOC = P115;
