@@ -343,7 +343,6 @@
     <!-- project is analyzed based on files automatically identified as       -->
     <!-- include files.                                                       -->
     <file xil_pn:name="i2cSlave_define.v" xil_pn:type="FILE_VERILOG"/>
-    <file xil_pn:name="timescale.v" xil_pn:type="FILE_VERILOG"/>
   </autoManagedFiles>
 
 </project>
