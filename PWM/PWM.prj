@@ -1,0 +1,3 @@
+verilog work "serialInterface.v"
+verilog work "i2cSlave.v"
+verilog work "PWM.v"

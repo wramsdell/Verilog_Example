@@ -1,0 +1,601 @@
+Release 12.3 - xst M.70d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: PWM.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "PWM.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "PWM"
+Output Format                      : NGC
+Target Device                      : xc3s50an-4-tqg144
+
+---- Source Options
+Top Module Name                    : PWM
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "serialInterface.v" in library work
+Compiling verilog include file "timescale.v"
+Compiling verilog include file "i2cSlave_define.v"
+Compiling verilog file "i2cSlave.v" in library work
+Compiling verilog include file "i2cSlave_define.v"
+Module <serialInterface> compiled
+Compiling verilog file "PWM.v" in library work
+Module <i2cSlave> compiled
+Module <PWM> compiled
+No errors in compilation
+Analysis of file <"PWM.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <PWM> in library <work>.
+
+Analyzing hierarchy for module <i2cSlave> in library <work>.
+
+Analyzing hierarchy for module <serialInterface> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <PWM>.
+INFO:Xst:1433 - Contents of array <PWM> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <PWM> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+Module <PWM> is correct for synthesis.
+ 
+Analyzing module <i2cSlave> in library <work>.
+Module <i2cSlave> is correct for synthesis.
+ 
+Analyzing module <serialInterface> in library <work>.
+"serialInterface.v" line 130: Found FullParallel Case directive in module <serialInterface>.
+Module <serialInterface> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <Port0_int<0>> in unit <PWM> has a constant value of 1 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <serialInterface>.
+    Related source file is "serialInterface.v".
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <CurrState_SISt> of Case statement line 130 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <CurrState_SISt> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+    Found finite state machine <FSM_0> for signal <CurrState_SISt>.
+    -----------------------------------------------------------------------
+    | States             | 16                                             |
+    | Transitions        | 32                                             |
+    | Inputs             | 7                                              |
+    | Outputs            | 14                                             |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 0000                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <streamSt>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 46                                             |
+    | Inputs             | 12                                             |
+    | Outputs            | 4                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <writeEn>.
+    Found 1-bit register for signal <sdaOut>.
+    Found 8-bit register for signal <dataOut>.
+    Found 1-bit register for signal <clearStartStopDet>.
+    Found 8-bit register for signal <regAddr>.
+    Found 3-bit register for signal <bitCnt>.
+    Found 3-bit adder for signal <next_bitCnt$share0000> created at line 130.
+    Found 8-bit adder for signal <next_regAddr$share0000> created at line 130.
+    Found 8-bit register for signal <rxData>.
+    Found 8-bit register for signal <txData>.
+    Summary:
+	inferred   2 Finite State Machine(s).
+	inferred  38 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+Unit <serialInterface> synthesized.
+
+
+Synthesizing Unit <i2cSlave>.
+    Related source file is "i2cSlave.v".
+    Found 1-bit tristate buffer for signal <sda>.
+    Found 2-bit register for signal <rstPipe>.
+    Found 1-bit register for signal <sclDeb>.
+    Found 10-bit register for signal <sclDelayed>.
+    Found 10-bit register for signal <sclPipe>.
+    Found 1-bit register for signal <sdaDeb>.
+    Found 4-bit register for signal <sdaDelayed>.
+    Found 10-bit register for signal <sdaPipe>.
+    Found 1-bit register for signal <startEdgeDet>.
+    Found 2-bit register for signal <startStopDetState>.
+    Summary:
+	inferred  41 D-type flip-flop(s).
+	inferred   1 Tristate(s).
+Unit <i2cSlave> synthesized.
+
+
+Synthesizing Unit <PWM>.
+    Related source file is "PWM.v".
+    Found 16-bit 8-to-1 multiplexer for signal <$varindex0000> created at line 91.
+    Found 1-bit register for signal <LED_Green_int>.
+    Found 1-bit register for signal <LED_Red_int>.
+    Found 5-bit up counter for signal <MclkDiv_Count>.
+    Found 7-bit register for signal <Port0_int<7:1>>.
+    Found 16-bit comparator equal for signal <Port0_int_1$cmp_eq0000> created at line 115.
+    Found 16-bit comparator equal for signal <Port0_int_2$cmp_eq0000> created at line 116.
+    Found 16-bit comparator equal for signal <Port0_int_3$cmp_eq0000> created at line 117.
+    Found 16-bit comparator equal for signal <Port0_int_4$cmp_eq0000> created at line 118.
+    Found 16-bit comparator equal for signal <Port0_int_5$cmp_eq0000> created at line 119.
+    Found 16-bit comparator equal for signal <Port0_int_6$cmp_eq0000> created at line 120.
+    Found 16-bit comparator equal for signal <Port0_int_7$cmp_eq0001> created at line 121.
+    Found 16-bit up counter for signal <PWM_Count>.
+    Found 1-bit register for signal <UsClk>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred 138 D-type flip-flop(s).
+	inferred   7 Comparator(s).
+	inferred  16 Multiplexer(s).
+Unit <PWM> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 3-bit adder                                           : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 2
+ 16-bit up counter                                     : 1
+ 5-bit up counter                                      : 1
+# Registers                                            : 155
+ 1-bit register                                        : 144
+ 10-bit register                                       : 3
+ 2-bit register                                        : 2
+ 3-bit register                                        : 1
+ 4-bit register                                        : 1
+ 8-bit register                                        : 4
+# Comparators                                          : 7
+ 16-bit comparator equal                               : 7
+# Multiplexers                                         : 1
+ 16-bit 8-to-1 multiplexer                             : 1
+# Tristates                                            : 1
+ 1-bit tristate buffer                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <u_i2cSlave/u_serialInterface/streamSt/FSM> on signal <streamSt[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 10
+ 11    | 11
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <u_i2cSlave/u_serialInterface/CurrState_SISt/FSM> on signal <CurrState_SISt[1:16]> with one-hot encoding.
+---------------------------
+ State | Encoding
+---------------------------
+ 0000  | 0000000000000001
+ 0001  | 0000000000000010
+ 0010  | 0000000000000100
+ 0011  | 0000000000010000
+ 0100  | 0000000000100000
+ 0101  | 0000000001000000
+ 0110  | 0000000010000000
+ 0111  | 0000010000000000
+ 1000  | 0000000000001000
+ 1001  | 0001000000000000
+ 1010  | 0010000000000000
+ 1011  | 0000001000000000
+ 1100  | 0100000000000000
+ 1101  | 1000000000000000
+ 1110  | 0000100000000000
+ 1111  | 0000000100000000
+---------------------------
+WARNING:Xst:1710 - FF/Latch <rstPipe_0> (without init value) has a constant value of 0 in block <u_i2cSlave>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rstPipe_1> (without init value) has a constant value of 0 in block <u_i2cSlave>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 2
+# Adders/Subtractors                                   : 2
+ 3-bit adder                                           : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 2
+ 16-bit up counter                                     : 1
+ 5-bit up counter                                      : 1
+# Registers                                            : 217
+ Flip-Flops                                            : 217
+# Comparators                                          : 7
+ 16-bit comparator equal                               : 7
+# Multiplexers                                         : 16
+ 1-bit 8-to-1 multiplexer                              : 16
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <rstPipe_0> (without init value) has a constant value of 0 in block <i2cSlave>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rstPipe_1> (without init value) has a constant value of 0 in block <i2cSlave>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <PWM> ...
+
+Optimizing unit <serialInterface> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block PWM, actual ratio is 37.
+FlipFlop u_i2cSlave/u_serialInterface/regAddr_0 has been replicated 1 time(s)
+FlipFlop u_i2cSlave/u_serialInterface/streamSt_FSM_FFd1 has been replicated 1 time(s)
+FlipFlop u_i2cSlave/u_serialInterface/streamSt_FSM_FFd2 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+Processing Unit <PWM> :
+	Found 10-bit shift register for signal <u_i2cSlave/sclDelayed_9>.
+Unit <PWM> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 247
+ Flip-Flops                                            : 247
+# Shift Registers                                      : 1
+ 10-bit shift register                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : PWM.ngr
+Top Level Output File Name         : PWM
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 13
+
+Cell Usage :
+# BELS                             : 499
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 15
+#      LUT2                        : 10
+#      LUT2_D                      : 2
+#      LUT2_L                      : 4
+#      LUT3                        : 109
+#      LUT3_D                      : 4
+#      LUT3_L                      : 17
+#      LUT4                        : 171
+#      LUT4_D                      : 5
+#      LUT4_L                      : 17
+#      MUXCY                       : 71
+#      MUXF5                       : 36
+#      MUXF6                       : 16
+#      VCC                         : 1
+#      XORCY                       : 16
+# FlipFlops/Latches                : 258
+#      FD                          : 1
+#      FDE                         : 140
+#      FDR                         : 49
+#      FDRE                        : 2
+#      FDRS                        : 19
+#      FDRSE                       : 2
+#      FDS                         : 36
+#      FDSE                        : 9
+# Shift Registers                  : 1
+#      SRL16                       : 1
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 12
+#      IBUF                        : 1
+#      IOBUF                       : 1
+#      OBUF                        : 10
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50antqg144-4 
+
+ Number of Slices:                      263  out of    704    37%  
+ Number of Slice Flip Flops:            258  out of   1408    18%  
+ Number of 4 input LUTs:                359  out of   1408    25%  
+    Number used as logic:               358
+    Number used as Shift registers:       1
+ Number of IOs:                          13
+ Number of bonded IOBs:                  13  out of    108    12%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk                                | BUFGP                  | 236   |
+UsClk1                             | BUFG                   | 23    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.577ns (Maximum Frequency: 152.045MHz)
+   Minimum input arrival time before clock: 1.521ns
+   Maximum output required time after clock: 5.531ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 6.577ns (frequency: 152.045MHz)
+  Total number of paths / destination ports: 2862 / 454
+-------------------------------------------------------------------------
+Delay:               6.577ns (Levels of Logic = 4)
+  Source:            u_i2cSlave/u_serialInterface/CurrState_SISt_FSM_FFd15 (FF)
+  Destination:       u_i2cSlave/u_serialInterface/regAddr_6 (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: u_i2cSlave/u_serialInterface/CurrState_SISt_FSM_FFd15 to u_i2cSlave/u_serialInterface/regAddr_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRS:C->Q            12   0.591   0.993  u_i2cSlave/u_serialInterface/CurrState_SISt_FSM_FFd15 (u_i2cSlave/u_serialInterface/CurrState_SISt_FSM_FFd15)
+     LUT3:I2->O           13   0.648   1.015  u_i2cSlave/u_serialInterface/next_bitCnt<0>31 (u_i2cSlave/u_serialInterface/N25)
+     LUT3:I2->O            7   0.648   0.711  u_i2cSlave/u_serialInterface/next_regAddr<4>21 (u_i2cSlave/u_serialInterface/N111)
+     LUT4:I3->O            1   0.648   0.423  u_i2cSlave/u_serialInterface/next_regAddr<6>_SW2_SW1 (N102)
+     LUT4:I3->O            1   0.648   0.000  u_i2cSlave/u_serialInterface/next_regAddr<6> (u_i2cSlave/u_serialInterface/next_regAddr<6>)
+     FDE:D                     0.252          u_i2cSlave/u_serialInterface/regAddr_6
+    ----------------------------------------
+    Total                      6.577ns (3.435ns logic, 3.142ns route)
+                                       (52.2% logic, 47.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'UsClk1'
+  Clock period: 5.416ns (frequency: 184.638MHz)
+  Total number of paths / destination ports: 616 / 46
+-------------------------------------------------------------------------
+Delay:               5.416ns (Levels of Logic = 2)
+  Source:            PWM_Count_15 (FF)
+  Destination:       Port0_int_7 (FF)
+  Source Clock:      UsClk1 rising
+  Destination Clock: UsClk1 rising
+
+  Data Path: PWM_Count_15 to Port0_int_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              9   0.591   0.963  PWM_Count_15 (PWM_Count_15)
+     LUT4:I0->O            1   0.648   0.500  Port0_int_7_cmp_eq000019 (Port0_int_7_cmp_eq000019)
+     LUT4:I1->O           23   0.643   1.202  Port0_int_7_cmp_eq000068 (Port0_int_7_cmp_eq0000)
+     FDSE:S                    0.869          Port0_int_7
+    ----------------------------------------
+    Total                      5.416ns (2.751ns logic, 2.665ns route)
+                                       (50.8% logic, 49.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              1.521ns (Levels of Logic = 1)
+  Source:            SCL (PAD)
+  Destination:       u_i2cSlave/sclPipe_0 (FF)
+  Destination Clock: Clk rising
+
+  Data Path: SCL to u_i2cSlave/sclPipe_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.849   0.420  SCL_IBUF (SCL_IBUF)
+     FDS:D                     0.252          u_i2cSlave/sclPipe_0
+    ----------------------------------------
+    Total                      1.521ns (1.101ns logic, 0.420ns route)
+                                       (72.4% logic, 27.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              5.531ns (Levels of Logic = 1)
+  Source:            LED_Green_int (FF)
+  Destination:       LED_Green (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: LED_Green_int to LED_Green
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.591   0.420  LED_Green_int (LED_Green_int)
+     OBUF:I->O                 4.520          LED_Green_OBUF (LED_Green)
+    ----------------------------------------
+    Total                      5.531ns (5.111ns logic, 0.420ns route)
+                                       (92.4% logic, 7.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'UsClk1'
+  Total number of paths / destination ports: 7 / 7
+-------------------------------------------------------------------------
+Offset:              5.531ns (Levels of Logic = 1)
+  Source:            Port0_int_7 (FF)
+  Destination:       Port0<7> (PAD)
+  Source Clock:      UsClk1 rising
+
+  Data Path: Port0_int_7 to Port0<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDSE:C->Q             1   0.591   0.420  Port0_int_7 (Port0_int_7)
+     OBUF:I->O                 4.520          Port0_7_OBUF (Port0<7>)
+    ----------------------------------------
+    Total                      5.531ns (5.111ns logic, 0.420ns route)
+                                       (92.4% logic, 7.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.55 secs
+ 
+--> 
+
+Total memory usage is 209224 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
+

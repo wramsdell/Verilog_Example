@@ -1,0 +1,87 @@
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PWM.ucf -p xc3s50an-tqg144-4 PWM.ngc PWM.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PWM.ucf -p xc3s50an-tqg144-4 PWM.ngc PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o PWM_map.ncd PWM.ngd PWM.pcf 
+par -w -intstyle ise -ol high -t 1 PWM_map.ncd PWM.ncd PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PWM.twx PWM.ncd -o PWM.twr PWM.pcf -ucf PWM.ucf 
+bitgen -intstyle ise -f PWM.ut PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PWM.ucf -p xc3s50an-tqg144-4 PWM.ngc PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o PWM_map.ncd PWM.ngd PWM.pcf 
+par -w -intstyle ise -ol high -t 1 PWM_map.ncd PWM.ncd PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PWM.twx PWM.ncd -o PWM.twr PWM.pcf -ucf PWM.ucf 
+bitgen -intstyle ise -f PWM.ut PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PWM.ucf -p xc3s50an-tqg144-4 PWM.ngc PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o PWM_map.ncd PWM.ngd PWM.pcf 
+par -w -intstyle ise -ol high -t 1 PWM_map.ncd PWM.ncd PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PWM.twx PWM.ncd -o PWM.twr PWM.pcf -ucf PWM.ucf 
+bitgen -intstyle ise -f PWM.ut PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PWM.ucf -p xc3s50an-tqg144-4 PWM.ngc PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o PWM_map.ncd PWM.ngd PWM.pcf 
+par -w -intstyle ise -ol high -t 1 PWM_map.ncd PWM.ncd PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PWM.twx PWM.ncd -o PWM.twr PWM.pcf -ucf PWM.ucf 
+bitgen -intstyle ise -f PWM.ut PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PWM.ucf -p xc3s50an-tqg144-4 PWM.ngc PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o PWM_map.ncd PWM.ngd PWM.pcf 
+par -w -intstyle ise -ol high -t 1 PWM_map.ncd PWM.ncd PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PWM.twx PWM.ncd -o PWM.twr PWM.pcf -ucf PWM.ucf 
+bitgen -intstyle ise -f PWM.ut PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PWM.ucf -p xc3s50an-tqg144-4 PWM.ngc PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o PWM_map.ncd PWM.ngd PWM.pcf 
+par -w -intstyle ise -ol high -t 1 PWM_map.ncd PWM.ncd PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PWM.twx PWM.ncd -o PWM.twr PWM.pcf -ucf PWM.ucf 
+bitgen -intstyle ise -f PWM.ut PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PWM.ucf -p xc3s50an-tqg144-4 PWM.ngc PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o PWM_map.ncd PWM.ngd PWM.pcf 
+par -w -intstyle ise -ol high -t 1 PWM_map.ncd PWM.ncd PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PWM.twx PWM.ncd -o PWM.twr PWM.pcf -ucf PWM.ucf 
+bitgen -intstyle ise -f PWM.ut PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PWM.ucf -p xc3s50an-tqg144-4 PWM.ngc PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o PWM_map.ncd PWM.ngd PWM.pcf 
+par -w -intstyle ise -ol high -t 1 PWM_map.ncd PWM.ncd PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PWM.twx PWM.ncd -o PWM.twr PWM.pcf -ucf PWM.ucf 
+bitgen -intstyle ise -f PWM.ut PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PWM.ucf -p xc3s50an-tqg144-4 PWM.ngc PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o PWM_map.ncd PWM.ngd PWM.pcf 
+par -w -intstyle ise -ol high -t 1 PWM_map.ncd PWM.ncd PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PWM.twx PWM.ncd -o PWM.twr PWM.pcf -ucf PWM.ucf 
+bitgen -intstyle ise -f PWM.ut PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PWM.ucf -p xc3s50an-tqg144-4 PWM.ngc PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o PWM_map.ncd PWM.ngd PWM.pcf 
+par -w -intstyle ise -ol high -t 1 PWM_map.ncd PWM.ncd PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PWM.twx PWM.ncd -o PWM.twr PWM.pcf -ucf PWM.ucf 
+bitgen -intstyle ise -f PWM.ut PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PWM.ucf -p xc3s50an-tqg144-4 PWM.ngc PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o PWM_map.ncd PWM.ngd PWM.pcf 
+par -w -intstyle ise -ol high -t 1 PWM_map.ncd PWM.ncd PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PWM.twx PWM.ncd -o PWM.twr PWM.pcf -ucf PWM.ucf 
+bitgen -intstyle ise -f PWM.ut PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.xst" -ofn "C:/FPGA_Projects/Verilog_Example/PWM/PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PWM.ucf -p xc3s50an-tqg144-4 PWM.ngc PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o PWM_map.ncd PWM.ngd PWM.pcf 
+par -w -intstyle ise -ol high -t 1 PWM_map.ncd PWM.ncd PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PWM.twx PWM.ncd -o PWM.twr PWM.pcf -ucf PWM.ucf 
+bitgen -intstyle ise -f PWM.ut PWM.ncd 

@@ -1,0 +1,20 @@
+//! **************************************************************************
+// Written by: Map M.70d on Wed Jan 26 01:24:05 2011
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "LED_Green" LOCATE = SITE "P117" LEVEL 1;
+COMP "Port0<0>" LOCATE = SITE "P76" LEVEL 1;
+COMP "Port0<1>" LOCATE = SITE "P82" LEVEL 1;
+COMP "Port0<2>" LOCATE = SITE "P85" LEVEL 1;
+COMP "Port0<3>" LOCATE = SITE "P90" LEVEL 1;
+COMP "Port0<4>" LOCATE = SITE "P92" LEVEL 1;
+COMP "Port0<5>" LOCATE = SITE "P96" LEVEL 1;
+COMP "Port0<6>" LOCATE = SITE "P101" LEVEL 1;
+COMP "Port0<7>" LOCATE = SITE "P104" LEVEL 1;
+COMP "LED_Red" LOCATE = SITE "P115" LEVEL 1;
+COMP "SDA" LOCATE = SITE "P32" LEVEL 1;
+COMP "SCL" LOCATE = SITE "P31" LEVEL 1;
+COMP "Clk" LOCATE = SITE "P57" LEVEL 1;
+SCHEMATIC END;
+

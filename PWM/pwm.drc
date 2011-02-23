@@ -1,0 +1,8 @@
+Release 12.3 Drc M.70d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Wed Jan 26 01:24:34 2011
+
+drc -z PWM.ncd PWM.pcf
+
+DRC detected 0 errors and 0 warnings.
