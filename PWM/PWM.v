@@ -39,7 +39,7 @@ wire [7:0] I2C_Addr;
 wire I2C_WEn;
 reg UsClk;
 reg [4:0] MclkDiv_Count;
-reg [14:0] PWM_Count;
+reg [15:0] PWM_Count;
 reg LED_Red_int;
 reg LED_Green_int;
 reg [15:0] PWM[7:0];
@@ -103,18 +103,19 @@ end
 // Setup the 20ms counter
 always @(posedge UsClk) begin
   if (PWM_Count==20000) begin
-    PWM_Count <= 14'h00;
+    PWM_Count <= 15'h00;
 	 Port0_int<=8'hFF;
   end
-  else
+  else begin
     PWM_Count <= PWM_Count+1;
-	 if (PWM[0][14:0]==PWM_Count) Port0_int[0]<=0;  
-	 if (PWM[1][14:0]==PWM_Count) Port0_int[1]<=0;  
-	 if (PWM[2][14:0]==PWM_Count) Port0_int[2]<=0;  
-	 if (PWM[3][14:0]==PWM_Count) Port0_int[3]<=0;  
-	 if (PWM[4][14:0]==PWM_Count) Port0_int[4]<=0;  
-	 if (PWM[5][14:0]==PWM_Count) Port0_int[5]<=0;  
-	 if (PWM[6][14:0]==PWM_Count) Port0_int[6]<=0;  
-	 if (PWM[7][14:0]==PWM_Count) Port0_int[7]<=0;  
+    if (PWM[0]==PWM_Count) Port0_int[0]<=0;  
+    if (PWM[1]==PWM_Count) Port0_int[1]<=0;  
+    if (PWM[2]==PWM_Count) Port0_int[2]<=0;  
+    if (PWM[3]==PWM_Count) Port0_int[3]<=0;  
+    if (PWM[4]==PWM_Count) Port0_int[4]<=0;  
+    if (PWM[5]==PWM_Count) Port0_int[5]<=0;  
+    if (PWM[6]==PWM_Count) Port0_int[6]<=0;  
+    if (PWM[7]==PWM_Count) Port0_int[7]<=0;  
+  end
 end
 endmodule
