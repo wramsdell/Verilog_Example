@@ -132,7 +132,7 @@
     <property xil_pn:name="Ignore User Timing Constraints Map" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Ignore User Timing Constraints Par" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Implementation Top" xil_pn:value="Module|PWM" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="Implementation Top File" xil_pn:value="PWM.v" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Implementation Top File" xil_pn:value="../PWM.v" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Implementation Top Instance Path" xil_pn:value="/PWM" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Include 'uselib Directive in Verilog File" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Include SIMPRIM Models in Verilog File" xil_pn:value="false" xil_pn:valueState="default"/>
@@ -302,6 +302,7 @@
     <property xil_pn:name="Use Synchronous Reset" xil_pn:value="Yes" xil_pn:valueState="default"/>
     <property xil_pn:name="Use Synchronous Set" xil_pn:value="Yes" xil_pn:valueState="default"/>
     <property xil_pn:name="Use Synthesis Constraints File" xil_pn:value="true" xil_pn:valueState="default"/>
+    <property xil_pn:name="User Browsed Strategy Files" xil_pn:value="" xil_pn:valueState="default"/>
     <property xil_pn:name="UserID Code (8 Digit Hexadecimal)" xil_pn:value="0xFFFFFFFF" xil_pn:valueState="default"/>
     <property xil_pn:name="VHDL Source Analysis Standard" xil_pn:value="VHDL-93" xil_pn:valueState="default"/>
     <property xil_pn:name="Value Range Check" xil_pn:value="false" xil_pn:valueState="default"/>
@@ -309,7 +310,7 @@
     <property xil_pn:name="Verilog Macros" xil_pn:value="" xil_pn:valueState="default"/>
     <property xil_pn:name="Wait for DLL Lock (Output Events)" xil_pn:value="Default (NoWait)" xil_pn:valueState="default"/>
     <property xil_pn:name="Wakeup Clock" xil_pn:value="Startup Clock" xil_pn:valueState="default"/>
-    <property xil_pn:name="Working Directory" xil_pn:value="." xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Working Directory" xil_pn:value="iseoutput" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Write Timing Constraints" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="XOR Collapsing" xil_pn:value="true" xil_pn:valueState="default"/>
     <!--                                                                                  -->
@@ -326,8 +327,8 @@
     <property xil_pn:name="PROP_PreSynthesis" xil_pn:value="PreSynthesis" xil_pn:valueState="default"/>
     <property xil_pn:name="PROP_intProjectCreationTimestamp" xil_pn:value="2011-01-25T22:12:32" xil_pn:valueState="non-default"/>
     <property xil_pn:name="PROP_intWbtProjectID" xil_pn:value="947DC9C59CE746F18DEBD3CBDA421F34" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="PROP_intWorkingDirLocWRTProjDir" xil_pn:value="Same" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="PROP_intWorkingDirUsed" xil_pn:value="No" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="PROP_intWorkingDirLocWRTProjDir" xil_pn:value="UnderProjDir" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="PROP_intWorkingDirUsed" xil_pn:value="Yes" xil_pn:valueState="non-default"/>
   </properties>
 
   <bindings/>
@@ -342,7 +343,6 @@
     <!-- project is analyzed based on files automatically identified as       -->
     <!-- include files.                                                       -->
     <file xil_pn:name="i2cSlave_define.v" xil_pn:type="FILE_VERILOG"/>
-    <file xil_pn:name="timescale.v" xil_pn:type="FILE_VERILOG"/>
   </autoManagedFiles>
 
 </project>
