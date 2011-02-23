@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\FPGA_Projects\Super_PWM\Super_PWM.ncd
+OUTFILE=C:\FPGA_Projects\Super_PWM\Super_PWM.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50an-4tqg144
+WORKINGDIR=C:\FPGA_Projects\Super_PWM
+LICENSE=WebPack
+USER_INFO=0_0_070

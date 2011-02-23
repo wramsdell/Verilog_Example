@@ -1,0 +1,16 @@
+# Output products list for <blk_mem_gen_v4_3>
+_xmsgs\pn_parser.xmsgs
+blk_mem_gen_ds512.pdf
+blk_mem_gen_readme.txt
+blk_mem_gen_v4_3.asy
+blk_mem_gen_v4_3.gise
+blk_mem_gen_v4_3.ngc
+blk_mem_gen_v4_3.sym
+blk_mem_gen_v4_3.v
+blk_mem_gen_v4_3.veo
+blk_mem_gen_v4_3.vhd
+blk_mem_gen_v4_3.vho
+blk_mem_gen_v4_3.xco
+blk_mem_gen_v4_3.xise
+blk_mem_gen_v4_3_flist.txt
+blk_mem_gen_v4_3_xmdf.tcl

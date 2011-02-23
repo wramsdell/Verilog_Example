@@ -1,0 +1,11 @@
+Release 12.3 Drc M.70d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Wed Feb 23 14:38:25 2011
+
+drc -z Super_PWM.ncd Super_PWM.pcf
+
+INFO:PhysDesignRules:772 - To achieve optimal frequency synthesis performance
+   with the CLKFX and CLKFX180 outputs of the DCM comp CB1/DCM_SP_INST1, consult
+   the device Interactive Data Sheet.
+DRC detected 0 errors and 0 warnings.

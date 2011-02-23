@@ -1,0 +1,73 @@
+Release 12.3 Map M.70d (nt)
+Xilinx Map Application Log File for Design 'Super_PWM'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off
+-pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+Target Device  : xc3s50an
+Target Package : tqg144
+Target Speed   : -4
+Mapper Version : spartan3a -- $Revision: 1.52 $
+Mapped Date    : Wed Feb 23 14:37:47 2011
+
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+Updating timing models...
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:           301 out of   1,408   21%
+  Number of 4 input LUTs:               994 out of   1,408   70%
+Logic Distribution:
+  Number of occupied Slices:            671 out of     704   95%
+    Number of Slices containing only related logic:     671 out of     671 100%
+    Number of Slices containing unrelated logic:          0 out of     671   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       1,032 out of   1,408   73%
+    Number used as logic:               610
+    Number used as a route-thru:         38
+    Number used for 32x1 RAMs:          384
+      (Two LUTs used per 32x1 RAM)
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                 71 out of     108   65%
+  Number of BUFGMUXs:                     4 out of      24   16%
+  Number of DCMs:                         2 out of       2  100%
+  Number of RAMB16BWEs:                   3 out of       3  100%
+
+Average Fanout of Non-Clock Nets:                4.04
+
+Peak Memory Usage:  188 MB
+Total REAL time to MAP completion:  2 secs 
+Total CPU time to MAP completion:   2 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "Super_PWM_map.mrp" for details.

@@ -1,0 +1,710 @@
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/Super_PWM.xst" -ofn "C:/FPGA_Projects/Super_PWM/Super_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Super_PWM.ucf -p xc3s50an-tqg144-4 Super_PWM.ngc Super_PWM.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -detail -ir off -pr off -c 100 -o Super_PWM_map.ncd Super_PWM.ngd Super_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 Super_PWM_map.ncd Super_PWM.ncd Super_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf -ucf Super_PWM.ucf 
+bitgen -intstyle ise -f Super_PWM.ut Super_PWM.ncd 

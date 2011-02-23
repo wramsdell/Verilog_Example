@@ -1,0 +1,937 @@
+--------------------------------------------------------------------------------
+Release 12.3 Trace  (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\12.3\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 4 -n
+3 -fastpaths -xml Super_PWM.twx Super_PWM.ncd -o Super_PWM.twr Super_PWM.pcf
+-ucf Super_PWM.ucf
+
+Design file:              Super_PWM.ncd
+Physical constraint file: Super_PWM.pcf
+Device,package,speed:     xc3s50an,tqg144,-4 (PRODUCTION 1.41 2010-09-15)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+================================================================================
+Timing constraint: TS_Clk = PERIOD TIMEGRP "Clk" 20 ns HIGH 50%;
+
+ 923 paths analyzed, 327 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   8.016ns.
+--------------------------------------------------------------------------------
+
+Paths for end point SS1/OUT2Int_3 (SLICE_X9Y9.BX), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     6.397ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               SS1/SSD1/OutInt_3 (FF)
+  Destination:          SS1/OUT2Int_3 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      3.492ns (Levels of Logic = 0)
+  Clock Path Skew:      -0.111ns (0.447 - 0.558)
+  Source Clock:         Buf_Clk falling at 10.000ns
+  Destination Clock:    Buf_Clk rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: SS1/SSD1/OutInt_3 to SS1/OUT2Int_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X17Y1.XQ       Tcko                  0.591   SS1/SSD1/OutInt<3>
+                                                       SS1/SSD1/OutInt_3
+    SLICE_X9Y9.BX        net (fanout=6)        2.650   SS1/SSD1/OutInt<3>
+    SLICE_X9Y9.CLK       Tdick                 0.251   SS1/OUT2Int<3>
+                                                       SS1/OUT2Int_3
+    -------------------------------------------------  ---------------------------
+    Total                                      3.492ns (0.842ns logic, 2.650ns route)
+                                                       (24.1% logic, 75.9% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point SS1/OUT5Int_3 (SLICE_X9Y8.BX), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     6.397ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               SS1/SSD1/OutInt_3 (FF)
+  Destination:          SS1/OUT5Int_3 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      3.492ns (Levels of Logic = 0)
+  Clock Path Skew:      -0.111ns (0.447 - 0.558)
+  Source Clock:         Buf_Clk falling at 10.000ns
+  Destination Clock:    Buf_Clk rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: SS1/SSD1/OutInt_3 to SS1/OUT5Int_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X17Y1.XQ       Tcko                  0.591   SS1/SSD1/OutInt<3>
+                                                       SS1/SSD1/OutInt_3
+    SLICE_X9Y8.BX        net (fanout=6)        2.650   SS1/SSD1/OutInt<3>
+    SLICE_X9Y8.CLK       Tdick                 0.251   SS1/OUT5Int<3>
+                                                       SS1/OUT5Int_3
+    -------------------------------------------------  ---------------------------
+    Total                                      3.492ns (0.842ns logic, 2.650ns route)
+                                                       (24.1% logic, 75.9% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point SS1/OUT2Int_7 (SLICE_X5Y2.BX), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     6.479ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               SS1/SSD1/OutInt_7 (FF)
+  Destination:          SS1/OUT2Int_7 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      3.410ns (Levels of Logic = 0)
+  Clock Path Skew:      -0.111ns (0.447 - 0.558)
+  Source Clock:         Buf_Clk falling at 10.000ns
+  Destination Clock:    Buf_Clk rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: SS1/SSD1/OutInt_7 to SS1/OUT2Int_7
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X16Y0.XQ       Tcko                  0.631   SS1/SSD1/OutInt<7>
+                                                       SS1/SSD1/OutInt_7
+    SLICE_X5Y2.BX        net (fanout=6)        2.528   SS1/SSD1/OutInt<7>
+    SLICE_X5Y2.CLK       Tdick                 0.251   SS1/OUT2Int<7>
+                                                       SS1/OUT2Int_7
+    -------------------------------------------------  ---------------------------
+    Total                                      3.410ns (0.882ns logic, 2.528ns route)
+                                                       (25.9% logic, 74.1% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: TS_Clk = PERIOD TIMEGRP "Clk" 20 ns HIGH 50%;
+--------------------------------------------------------------------------------
+
+Paths for end point Terminate_27 (SLICE_X9Y7.BX), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.921ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               SS1/OUT2Int_3 (FF)
+  Destination:          Terminate_27 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.943ns (Levels of Logic = 0)
+  Clock Path Skew:      0.022ns (0.060 - 0.038)
+  Source Clock:         Buf_Clk rising at 20.000ns
+  Destination Clock:    Buf_Clk rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: SS1/OUT2Int_3 to Terminate_27
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y9.XQ        Tcko                  0.473   SS1/OUT2Int<3>
+                                                       SS1/OUT2Int_3
+    SLICE_X9Y7.BX        net (fanout=4)        0.381   SS1/OUT2Int<3>
+    SLICE_X9Y7.CLK       Tckdi       (-Th)    -0.089   Terminate<27>
+                                                       Terminate_27
+    -------------------------------------------------  ---------------------------
+    Total                                      0.943ns (0.562ns logic, 0.381ns route)
+                                                       (59.6% logic, 40.4% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Terminate_9 (SLICE_X10Y1.BX), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.921ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               SS1/OUT4Int_1 (FF)
+  Destination:          Terminate_9 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.995ns (Levels of Logic = 0)
+  Clock Path Skew:      0.074ns (0.312 - 0.238)
+  Source Clock:         Buf_Clk rising at 20.000ns
+  Destination Clock:    Buf_Clk rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: SS1/OUT4Int_1 to Terminate_9
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X13Y1.XQ       Tcko                  0.473   SS1/OUT4Int<1>
+                                                       SS1/OUT4Int_1
+    SLICE_X10Y1.BX       net (fanout=4)        0.384   SS1/OUT4Int<1>
+    SLICE_X10Y1.CLK      Tckdi       (-Th)    -0.138   Terminate<9>
+                                                       Terminate_9
+    -------------------------------------------------  ---------------------------
+    Total                                      0.995ns (0.611ns logic, 0.384ns route)
+                                                       (61.4% logic, 38.6% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point SS1/SSD1/DataReceived_1 (SLICE_X23Y2.BX), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.929ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               SS1/SSD1/DataReceived_0 (FF)
+  Destination:          SS1/SSD1/DataReceived_1 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.929ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Buf_Clk rising at 20.000ns
+  Destination Clock:    Buf_Clk rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: SS1/SSD1/DataReceived_0 to SS1/SSD1/DataReceived_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X23Y2.YQ       Tcko                  0.464   SS1/SSD1/DataReceived<1>
+                                                       SS1/SSD1/DataReceived_0
+    SLICE_X23Y2.BX       net (fanout=2)        0.376   SS1/SSD1/DataReceived<0>
+    SLICE_X23Y2.CLK      Tckdi       (-Th)    -0.089   SS1/SSD1/DataReceived<1>
+                                                       SS1/SSD1/DataReceived_1
+    -------------------------------------------------  ---------------------------
+    Total                                      0.929ns (0.553ns logic, 0.376ns route)
+                                                       (59.5% logic, 40.5% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_Clk = PERIOD TIMEGRP "Clk" 20 ns HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 14.000ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 20.000ns
+  Low pulse: 10.000ns
+  Low pulse limit: 3.000ns (Tdcmpw_CLKIN_50_100)
+  Physical resource: CB1/DCM_SP_INST1/CLKIN
+  Logical resource: CB1/DCM_SP_INST1/CLKIN
+  Location pin: DCM_X1Y0.CLKIN
+  Clock network: Buf_Clk1
+--------------------------------------------------------------------------------
+Slack: 14.000ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 20.000ns
+  High pulse: 10.000ns
+  High pulse limit: 3.000ns (Tdcmpw_CLKIN_50_100)
+  Physical resource: CB1/DCM_SP_INST1/CLKIN
+  Logical resource: CB1/DCM_SP_INST1/CLKIN
+  Location pin: DCM_X1Y0.CLKIN
+  Clock network: Buf_Clk1
+--------------------------------------------------------------------------------
+Slack: 15.834ns (period - min period limit)
+  Period: 20.000ns
+  Min period limit: 4.166ns (240.038MHz) (Tdcmpco)
+  Physical resource: CB1/DCM_SP_INST1/CLK0
+  Logical resource: CB1/DCM_SP_INST1/CLK0
+  Location pin: DCM_X1Y0.CLK0
+  Clock network: CB1/CLK0_BUF_1
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_CB1_CLKFX_1 = PERIOD TIMEGRP "CB1_CLKFX_1" TS_Clk / 0.64 
+HIGH 50%;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is  10.000ns.
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_CB1_CLKFX_1 = PERIOD TIMEGRP "CB1_CLKFX_1" TS_Clk / 0.64 HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 12.596ns (period - min period limit)
+  Period: 15.625ns
+  Min period limit: 3.029ns (330.142MHz) (Tdcmpco)
+  Physical resource: CB1/DCM_SP_INST2/CLK2X
+  Logical resource: CB1/DCM_SP_INST2/CLK2X
+  Location pin: DCM_X0Y0.CLK2X
+  Clock network: DFS_Clk1
+--------------------------------------------------------------------------------
+Slack: 21.250ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 31.250ns
+  Low pulse: 15.625ns
+  Low pulse limit: 5.000ns (Tdcmpw_CLKIN_25_50)
+  Physical resource: CB1/DCM_SP_INST2/CLKIN
+  Logical resource: CB1/DCM_SP_INST2/CLKIN
+  Location pin: DCM_X0Y0.CLKIN
+  Clock network: CB1/CLKFX_1
+--------------------------------------------------------------------------------
+Slack: 21.250ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 31.250ns
+  High pulse: 15.625ns
+  High pulse limit: 5.000ns (Tdcmpw_CLKIN_25_50)
+  Physical resource: CB1/DCM_SP_INST2/CLKIN
+  Logical resource: CB1/DCM_SP_INST2/CLKIN
+  Location pin: DCM_X0Y0.CLKIN
+  Clock network: CB1/CLKFX_1
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_DFS_Clk1 = PERIOD TIMEGRP "DFS_Clk1" TS_CB1_CLKFX_1 / 2 
+HIGH 50%;
+
+ 752671 paths analyzed, 3005 endpoints analyzed, 431 failing endpoints
+ 431 timing errors detected. (431 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is 250.625ns.
+--------------------------------------------------------------------------------
+
+Paths for end point Accumulator_14 (SLICE_X5Y12.SR), 105 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     -9.400ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Terminate_4 (FF)
+  Destination:          Accumulator_14 (FF)
+  Requirement:          0.625ns
+  Data Path Delay:      8.120ns (Levels of Logic = 8)(Component delays alone exceeds constraint)
+  Clock Path Skew:      -1.905ns (-1.155 - 0.750)
+  Source Clock:         Buf_Clk rising at 140.000ns
+  Destination Clock:    DFS_Clk rising at 140.625ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: Terminate_4 to Accumulator_14
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X6Y1.YQ        Tcko                  0.676   Terminate<5>
+                                                       Terminate_4
+    SLICE_X11Y2.F3       net (fanout=2)        0.915   Terminate<4>
+    SLICE_X11Y2.COUT     Topcyf                1.195   Mcompar_Accumulator_cmp_ne0000_cy<3>
+                                                       Mcompar_Accumulator_cmp_ne0000_lut<2>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<2>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<3>
+    SLICE_X11Y3.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<3>
+    SLICE_X11Y3.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<5>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<4>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<5>
+    SLICE_X11Y4.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<5>
+    SLICE_X11Y4.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<7>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<6>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<7>
+    SLICE_X11Y5.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<7>
+    SLICE_X11Y5.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<9>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<8>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<9>
+    SLICE_X11Y6.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<9>
+    SLICE_X11Y6.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<11>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<10>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<11>
+    SLICE_X11Y7.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<11>
+    SLICE_X11Y7.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<13>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<12>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<13>
+    SLICE_X11Y8.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<13>
+    SLICE_X11Y8.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<15>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<14>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<15>
+    SLICE_X4Y15.F1       net (fanout=3)        1.803   Mcompar_Accumulator_cmp_ne0000_cy<15>
+    SLICE_X4Y15.X        Tilo                  0.692   Accumulator_or0000
+                                                       Accumulator_or00001
+    SLICE_X5Y12.SR       net (fanout=23)       1.192   Accumulator_or0000
+    SLICE_X5Y12.CLK      Tsrck                 0.867   Accumulator<14>
+                                                       Accumulator_14
+    -------------------------------------------------  ---------------------------
+    Total                                      8.120ns (4.210ns logic, 3.910ns route)
+                                                       (51.8% logic, 48.2% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     -9.295ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Terminate_15 (FF)
+  Destination:          Accumulator_14 (FF)
+  Requirement:          0.625ns
+  Data Path Delay:      7.950ns (Levels of Logic = 6)(Component delays alone exceeds constraint)
+  Clock Path Skew:      -1.970ns (-1.155 - 0.815)
+  Source Clock:         Buf_Clk rising at 140.000ns
+  Destination Clock:    DFS_Clk rising at 140.625ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: Terminate_15 to Accumulator_14
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X8Y3.XQ        Tcko                  0.631   Terminate<15>
+                                                       Terminate_15
+    SLICE_X11Y4.G1       net (fanout=2)        1.067   Terminate<15>
+    SLICE_X11Y4.COUT     Topcyg                1.178   Mcompar_Accumulator_cmp_ne0000_cy<7>
+                                                       Mcompar_Accumulator_cmp_ne0000_lut<7>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<7>
+    SLICE_X11Y5.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<7>
+    SLICE_X11Y5.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<9>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<8>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<9>
+    SLICE_X11Y6.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<9>
+    SLICE_X11Y6.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<11>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<10>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<11>
+    SLICE_X11Y7.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<11>
+    SLICE_X11Y7.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<13>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<12>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<13>
+    SLICE_X11Y8.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<13>
+    SLICE_X11Y8.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<15>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<14>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<15>
+    SLICE_X4Y15.F1       net (fanout=3)        1.803   Mcompar_Accumulator_cmp_ne0000_cy<15>
+    SLICE_X4Y15.X        Tilo                  0.692   Accumulator_or0000
+                                                       Accumulator_or00001
+    SLICE_X5Y12.SR       net (fanout=23)       1.192   Accumulator_or0000
+    SLICE_X5Y12.CLK      Tsrck                 0.867   Accumulator<14>
+                                                       Accumulator_14
+    -------------------------------------------------  ---------------------------
+    Total                                      7.950ns (3.888ns logic, 4.062ns route)
+                                                       (48.9% logic, 51.1% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     -9.240ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Terminate_5 (FF)
+  Destination:          Accumulator_14 (FF)
+  Requirement:          0.625ns
+  Data Path Delay:      7.960ns (Levels of Logic = 8)(Component delays alone exceeds constraint)
+  Clock Path Skew:      -1.905ns (-1.155 - 0.750)
+  Source Clock:         Buf_Clk rising at 140.000ns
+  Destination Clock:    DFS_Clk rising at 140.625ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: Terminate_5 to Accumulator_14
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X6Y1.XQ        Tcko                  0.631   Terminate<5>
+                                                       Terminate_5
+    SLICE_X11Y2.F1       net (fanout=2)        0.800   Terminate<5>
+    SLICE_X11Y2.COUT     Topcyf                1.195   Mcompar_Accumulator_cmp_ne0000_cy<3>
+                                                       Mcompar_Accumulator_cmp_ne0000_lut<2>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<2>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<3>
+    SLICE_X11Y3.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<3>
+    SLICE_X11Y3.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<5>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<4>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<5>
+    SLICE_X11Y4.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<5>
+    SLICE_X11Y4.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<7>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<6>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<7>
+    SLICE_X11Y5.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<7>
+    SLICE_X11Y5.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<9>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<8>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<9>
+    SLICE_X11Y6.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<9>
+    SLICE_X11Y6.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<11>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<10>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<11>
+    SLICE_X11Y7.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<11>
+    SLICE_X11Y7.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<13>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<12>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<13>
+    SLICE_X11Y8.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<13>
+    SLICE_X11Y8.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<15>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<14>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<15>
+    SLICE_X4Y15.F1       net (fanout=3)        1.803   Mcompar_Accumulator_cmp_ne0000_cy<15>
+    SLICE_X4Y15.X        Tilo                  0.692   Accumulator_or0000
+                                                       Accumulator_or00001
+    SLICE_X5Y12.SR       net (fanout=23)       1.192   Accumulator_or0000
+    SLICE_X5Y12.CLK      Tsrck                 0.867   Accumulator<14>
+                                                       Accumulator_14
+    -------------------------------------------------  ---------------------------
+    Total                                      7.960ns (4.165ns logic, 3.795ns route)
+                                                       (52.3% logic, 47.7% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Accumulator_15 (SLICE_X5Y12.SR), 105 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     -9.400ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Terminate_4 (FF)
+  Destination:          Accumulator_15 (FF)
+  Requirement:          0.625ns
+  Data Path Delay:      8.120ns (Levels of Logic = 8)(Component delays alone exceeds constraint)
+  Clock Path Skew:      -1.905ns (-1.155 - 0.750)
+  Source Clock:         Buf_Clk rising at 140.000ns
+  Destination Clock:    DFS_Clk rising at 140.625ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: Terminate_4 to Accumulator_15
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X6Y1.YQ        Tcko                  0.676   Terminate<5>
+                                                       Terminate_4
+    SLICE_X11Y2.F3       net (fanout=2)        0.915   Terminate<4>
+    SLICE_X11Y2.COUT     Topcyf                1.195   Mcompar_Accumulator_cmp_ne0000_cy<3>
+                                                       Mcompar_Accumulator_cmp_ne0000_lut<2>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<2>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<3>
+    SLICE_X11Y3.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<3>
+    SLICE_X11Y3.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<5>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<4>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<5>
+    SLICE_X11Y4.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<5>
+    SLICE_X11Y4.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<7>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<6>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<7>
+    SLICE_X11Y5.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<7>
+    SLICE_X11Y5.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<9>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<8>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<9>
+    SLICE_X11Y6.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<9>
+    SLICE_X11Y6.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<11>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<10>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<11>
+    SLICE_X11Y7.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<11>
+    SLICE_X11Y7.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<13>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<12>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<13>
+    SLICE_X11Y8.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<13>
+    SLICE_X11Y8.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<15>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<14>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<15>
+    SLICE_X4Y15.F1       net (fanout=3)        1.803   Mcompar_Accumulator_cmp_ne0000_cy<15>
+    SLICE_X4Y15.X        Tilo                  0.692   Accumulator_or0000
+                                                       Accumulator_or00001
+    SLICE_X5Y12.SR       net (fanout=23)       1.192   Accumulator_or0000
+    SLICE_X5Y12.CLK      Tsrck                 0.867   Accumulator<14>
+                                                       Accumulator_15
+    -------------------------------------------------  ---------------------------
+    Total                                      8.120ns (4.210ns logic, 3.910ns route)
+                                                       (51.8% logic, 48.2% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     -9.295ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Terminate_15 (FF)
+  Destination:          Accumulator_15 (FF)
+  Requirement:          0.625ns
+  Data Path Delay:      7.950ns (Levels of Logic = 6)(Component delays alone exceeds constraint)
+  Clock Path Skew:      -1.970ns (-1.155 - 0.815)
+  Source Clock:         Buf_Clk rising at 140.000ns
+  Destination Clock:    DFS_Clk rising at 140.625ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: Terminate_15 to Accumulator_15
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X8Y3.XQ        Tcko                  0.631   Terminate<15>
+                                                       Terminate_15
+    SLICE_X11Y4.G1       net (fanout=2)        1.067   Terminate<15>
+    SLICE_X11Y4.COUT     Topcyg                1.178   Mcompar_Accumulator_cmp_ne0000_cy<7>
+                                                       Mcompar_Accumulator_cmp_ne0000_lut<7>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<7>
+    SLICE_X11Y5.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<7>
+    SLICE_X11Y5.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<9>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<8>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<9>
+    SLICE_X11Y6.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<9>
+    SLICE_X11Y6.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<11>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<10>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<11>
+    SLICE_X11Y7.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<11>
+    SLICE_X11Y7.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<13>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<12>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<13>
+    SLICE_X11Y8.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<13>
+    SLICE_X11Y8.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<15>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<14>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<15>
+    SLICE_X4Y15.F1       net (fanout=3)        1.803   Mcompar_Accumulator_cmp_ne0000_cy<15>
+    SLICE_X4Y15.X        Tilo                  0.692   Accumulator_or0000
+                                                       Accumulator_or00001
+    SLICE_X5Y12.SR       net (fanout=23)       1.192   Accumulator_or0000
+    SLICE_X5Y12.CLK      Tsrck                 0.867   Accumulator<14>
+                                                       Accumulator_15
+    -------------------------------------------------  ---------------------------
+    Total                                      7.950ns (3.888ns logic, 4.062ns route)
+                                                       (48.9% logic, 51.1% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     -9.240ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Terminate_5 (FF)
+  Destination:          Accumulator_15 (FF)
+  Requirement:          0.625ns
+  Data Path Delay:      7.960ns (Levels of Logic = 8)(Component delays alone exceeds constraint)
+  Clock Path Skew:      -1.905ns (-1.155 - 0.750)
+  Source Clock:         Buf_Clk rising at 140.000ns
+  Destination Clock:    DFS_Clk rising at 140.625ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: Terminate_5 to Accumulator_15
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X6Y1.XQ        Tcko                  0.631   Terminate<5>
+                                                       Terminate_5
+    SLICE_X11Y2.F1       net (fanout=2)        0.800   Terminate<5>
+    SLICE_X11Y2.COUT     Topcyf                1.195   Mcompar_Accumulator_cmp_ne0000_cy<3>
+                                                       Mcompar_Accumulator_cmp_ne0000_lut<2>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<2>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<3>
+    SLICE_X11Y3.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<3>
+    SLICE_X11Y3.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<5>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<4>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<5>
+    SLICE_X11Y4.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<5>
+    SLICE_X11Y4.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<7>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<6>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<7>
+    SLICE_X11Y5.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<7>
+    SLICE_X11Y5.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<9>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<8>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<9>
+    SLICE_X11Y6.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<9>
+    SLICE_X11Y6.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<11>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<10>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<11>
+    SLICE_X11Y7.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<11>
+    SLICE_X11Y7.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<13>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<12>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<13>
+    SLICE_X11Y8.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<13>
+    SLICE_X11Y8.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<15>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<14>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<15>
+    SLICE_X4Y15.F1       net (fanout=3)        1.803   Mcompar_Accumulator_cmp_ne0000_cy<15>
+    SLICE_X4Y15.X        Tilo                  0.692   Accumulator_or0000
+                                                       Accumulator_or00001
+    SLICE_X5Y12.SR       net (fanout=23)       1.192   Accumulator_or0000
+    SLICE_X5Y12.CLK      Tsrck                 0.867   Accumulator<14>
+                                                       Accumulator_15
+    -------------------------------------------------  ---------------------------
+    Total                                      7.960ns (4.165ns logic, 3.795ns route)
+                                                       (52.3% logic, 47.7% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Accumulator_16 (SLICE_X5Y13.SR), 105 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     -9.400ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Terminate_4 (FF)
+  Destination:          Accumulator_16 (FF)
+  Requirement:          0.625ns
+  Data Path Delay:      8.120ns (Levels of Logic = 8)(Component delays alone exceeds constraint)
+  Clock Path Skew:      -1.905ns (-1.155 - 0.750)
+  Source Clock:         Buf_Clk rising at 140.000ns
+  Destination Clock:    DFS_Clk rising at 140.625ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: Terminate_4 to Accumulator_16
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X6Y1.YQ        Tcko                  0.676   Terminate<5>
+                                                       Terminate_4
+    SLICE_X11Y2.F3       net (fanout=2)        0.915   Terminate<4>
+    SLICE_X11Y2.COUT     Topcyf                1.195   Mcompar_Accumulator_cmp_ne0000_cy<3>
+                                                       Mcompar_Accumulator_cmp_ne0000_lut<2>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<2>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<3>
+    SLICE_X11Y3.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<3>
+    SLICE_X11Y3.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<5>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<4>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<5>
+    SLICE_X11Y4.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<5>
+    SLICE_X11Y4.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<7>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<6>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<7>
+    SLICE_X11Y5.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<7>
+    SLICE_X11Y5.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<9>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<8>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<9>
+    SLICE_X11Y6.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<9>
+    SLICE_X11Y6.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<11>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<10>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<11>
+    SLICE_X11Y7.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<11>
+    SLICE_X11Y7.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<13>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<12>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<13>
+    SLICE_X11Y8.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<13>
+    SLICE_X11Y8.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<15>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<14>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<15>
+    SLICE_X4Y15.F1       net (fanout=3)        1.803   Mcompar_Accumulator_cmp_ne0000_cy<15>
+    SLICE_X4Y15.X        Tilo                  0.692   Accumulator_or0000
+                                                       Accumulator_or00001
+    SLICE_X5Y13.SR       net (fanout=23)       1.192   Accumulator_or0000
+    SLICE_X5Y13.CLK      Tsrck                 0.867   Accumulator<16>
+                                                       Accumulator_16
+    -------------------------------------------------  ---------------------------
+    Total                                      8.120ns (4.210ns logic, 3.910ns route)
+                                                       (51.8% logic, 48.2% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     -9.295ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Terminate_15 (FF)
+  Destination:          Accumulator_16 (FF)
+  Requirement:          0.625ns
+  Data Path Delay:      7.950ns (Levels of Logic = 6)(Component delays alone exceeds constraint)
+  Clock Path Skew:      -1.970ns (-1.155 - 0.815)
+  Source Clock:         Buf_Clk rising at 140.000ns
+  Destination Clock:    DFS_Clk rising at 140.625ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: Terminate_15 to Accumulator_16
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X8Y3.XQ        Tcko                  0.631   Terminate<15>
+                                                       Terminate_15
+    SLICE_X11Y4.G1       net (fanout=2)        1.067   Terminate<15>
+    SLICE_X11Y4.COUT     Topcyg                1.178   Mcompar_Accumulator_cmp_ne0000_cy<7>
+                                                       Mcompar_Accumulator_cmp_ne0000_lut<7>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<7>
+    SLICE_X11Y5.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<7>
+    SLICE_X11Y5.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<9>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<8>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<9>
+    SLICE_X11Y6.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<9>
+    SLICE_X11Y6.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<11>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<10>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<11>
+    SLICE_X11Y7.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<11>
+    SLICE_X11Y7.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<13>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<12>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<13>
+    SLICE_X11Y8.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<13>
+    SLICE_X11Y8.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<15>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<14>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<15>
+    SLICE_X4Y15.F1       net (fanout=3)        1.803   Mcompar_Accumulator_cmp_ne0000_cy<15>
+    SLICE_X4Y15.X        Tilo                  0.692   Accumulator_or0000
+                                                       Accumulator_or00001
+    SLICE_X5Y13.SR       net (fanout=23)       1.192   Accumulator_or0000
+    SLICE_X5Y13.CLK      Tsrck                 0.867   Accumulator<16>
+                                                       Accumulator_16
+    -------------------------------------------------  ---------------------------
+    Total                                      7.950ns (3.888ns logic, 4.062ns route)
+                                                       (48.9% logic, 51.1% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     -9.240ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Terminate_5 (FF)
+  Destination:          Accumulator_16 (FF)
+  Requirement:          0.625ns
+  Data Path Delay:      7.960ns (Levels of Logic = 8)(Component delays alone exceeds constraint)
+  Clock Path Skew:      -1.905ns (-1.155 - 0.750)
+  Source Clock:         Buf_Clk rising at 140.000ns
+  Destination Clock:    DFS_Clk rising at 140.625ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: Terminate_5 to Accumulator_16
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X6Y1.XQ        Tcko                  0.631   Terminate<5>
+                                                       Terminate_5
+    SLICE_X11Y2.F1       net (fanout=2)        0.800   Terminate<5>
+    SLICE_X11Y2.COUT     Topcyf                1.195   Mcompar_Accumulator_cmp_ne0000_cy<3>
+                                                       Mcompar_Accumulator_cmp_ne0000_lut<2>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<2>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<3>
+    SLICE_X11Y3.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<3>
+    SLICE_X11Y3.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<5>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<4>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<5>
+    SLICE_X11Y4.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<5>
+    SLICE_X11Y4.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<7>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<6>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<7>
+    SLICE_X11Y5.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<7>
+    SLICE_X11Y5.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<9>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<8>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<9>
+    SLICE_X11Y6.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<9>
+    SLICE_X11Y6.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<11>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<10>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<11>
+    SLICE_X11Y7.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<11>
+    SLICE_X11Y7.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<13>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<12>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<13>
+    SLICE_X11Y8.CIN      net (fanout=1)        0.000   Mcompar_Accumulator_cmp_ne0000_cy<13>
+    SLICE_X11Y8.COUT     Tbyp                  0.130   Mcompar_Accumulator_cmp_ne0000_cy<15>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<14>
+                                                       Mcompar_Accumulator_cmp_ne0000_cy<15>
+    SLICE_X4Y15.F1       net (fanout=3)        1.803   Mcompar_Accumulator_cmp_ne0000_cy<15>
+    SLICE_X4Y15.X        Tilo                  0.692   Accumulator_or0000
+                                                       Accumulator_or00001
+    SLICE_X5Y13.SR       net (fanout=23)       1.192   Accumulator_or0000
+    SLICE_X5Y13.CLK      Tsrck                 0.867   Accumulator<16>
+                                                       Accumulator_16
+    -------------------------------------------------  ---------------------------
+    Total                                      7.960ns (4.165ns logic, 3.795ns route)
+                                                       (52.3% logic, 47.7% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: TS_DFS_Clk1 = PERIOD TIMEGRP "DFS_Clk1" TS_CB1_CLKFX_1 / 2 HIGH 50%;
+--------------------------------------------------------------------------------
+
+Paths for end point Port_i_21 (SLICE_X5Y31.BX), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.873ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Port_buf_21 (FF)
+  Destination:          Port_i_21 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.894ns (Levels of Logic = 0)
+  Clock Path Skew:      0.021ns (0.119 - 0.098)
+  Source Clock:         DFS_Clk rising at 15.625ns
+  Destination Clock:    DFS_Clk rising at 15.625ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: Port_buf_21 to Port_i_21
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X5Y29.YQ       Tcko                  0.464   Port_buf<21>
+                                                       Port_buf_21
+    SLICE_X5Y31.BX       net (fanout=1)        0.341   Port_buf<21>
+    SLICE_X5Y31.CLK      Tckdi       (-Th)    -0.089   Port_i<21>
+                                                       Port_i_21
+    -------------------------------------------------  ---------------------------
+    Total                                      0.894ns (0.553ns logic, 0.341ns route)
+                                                       (61.9% logic, 38.1% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Mram_F1/F (SLICE_X2Y6.G4), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.875ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Accumulator_4_1 (FF)
+  Destination:          Mram_F1/F (RAM)
+  Requirement:          0.000ns
+  Data Path Delay:      0.902ns (Levels of Logic = 1)
+  Clock Path Skew:      0.027ns (0.321 - 0.294)
+  Source Clock:         DFS_Clk rising at 15.625ns
+  Destination Clock:    DFS_Clk rising at 15.625ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: Accumulator_4_1 to Mram_F1/F
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X5Y7.XQ        Tcko                  0.473   Accumulator_4_1
+                                                       Accumulator_4_1
+    SLICE_X2Y6.G4        net (fanout=194)      0.430   Accumulator_4_1
+    SLICE_X2Y6.CLK       Tah         (-Th)     0.001   N4
+                                                       Mram_F1/F
+    -------------------------------------------------  ---------------------------
+    Total                                      0.902ns (0.472ns logic, 0.430ns route)
+                                                       (52.3% logic, 47.7% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Mram_F1/G (SLICE_X2Y6.G4), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.875ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Accumulator_4_1 (FF)
+  Destination:          Mram_F1/G (RAM)
+  Requirement:          0.000ns
+  Data Path Delay:      0.902ns (Levels of Logic = 1)
+  Clock Path Skew:      0.027ns (0.321 - 0.294)
+  Source Clock:         DFS_Clk rising at 15.625ns
+  Destination Clock:    DFS_Clk rising at 15.625ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: Accumulator_4_1 to Mram_F1/G
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X5Y7.XQ        Tcko                  0.473   Accumulator_4_1
+                                                       Accumulator_4_1
+    SLICE_X2Y6.G4        net (fanout=194)      0.430   Accumulator_4_1
+    SLICE_X2Y6.CLK       Tah         (-Th)     0.001   N4
+                                                       Mram_F1/G
+    -------------------------------------------------  ---------------------------
+    Total                                      0.902ns (0.472ns logic, 0.430ns route)
+                                                       (52.3% logic, 47.7% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_DFS_Clk1 = PERIOD TIMEGRP "DFS_Clk1" TS_CB1_CLKFX_1 / 2 HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 13.611ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 15.625ns
+  Low pulse: 7.812ns
+  Low pulse limit: 1.007ns (Twpl)
+  Physical resource: N60/CLK
+  Logical resource: Mram_F29/F/WS
+  Location pin: SLICE_X10Y11.CLK
+  Clock network: DFS_Clk
+--------------------------------------------------------------------------------
+Slack: 13.611ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 15.625ns
+  High pulse: 7.812ns
+  High pulse limit: 1.007ns (Twph)
+  Physical resource: N60/CLK
+  Logical resource: Mram_F29/F/WS
+  Location pin: SLICE_X10Y11.CLK
+  Clock network: DFS_Clk
+--------------------------------------------------------------------------------
+Slack: 13.611ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 15.625ns
+  Low pulse: 7.812ns
+  Low pulse limit: 1.007ns (Twpl)
+  Physical resource: N60/CLK
+  Logical resource: Mram_F29/G/WS
+  Location pin: SLICE_X10Y11.CLK
+  Clock network: DFS_Clk
+--------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for TS_Clk
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_Clk                         |     20.000ns|      8.016ns|    320.800ns|            0|          431|          923|       752671|
+| TS_CB1_CLKFX_1                |     31.250ns|     10.000ns|    501.250ns|            0|          431|            0|       752671|
+|  TS_DFS_Clk1                  |     15.625ns|    250.625ns|          N/A|          431|            0|       752671|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+1 constraint not met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk            |   20.301|    3.603|    2.251|         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 431  Score: 2771640  (Setup/Max: 2771640, Hold: 0)
+
+Constraints cover 753594 paths, 0 nets, and 4865 connections
+
+Design statistics:
+   Minimum period: 250.625ns{1}   (Maximum frequency:   3.990MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Wed Feb 23 14:38:22 2011 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 140 MB
+
+
+

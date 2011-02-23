@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/GPIO.xst" -ofn "C:/FPGA_Projects/Super_PWM/GPIO.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/GPIO.xst" -ofn "C:/FPGA_Projects/Super_PWM/GPIO.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/GPIO.xst" -ofn "C:/FPGA_Projects/Super_PWM/GPIO.syr" 
+xst -intstyle ise -ifn "C:/FPGA_Projects/Super_PWM/GPIO.xst" -ofn "C:/FPGA_Projects/Super_PWM/GPIO.syr" 

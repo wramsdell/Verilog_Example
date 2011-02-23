@@ -1,0 +1,4 @@
+verilog work "serialInterface.v"
+verilog work "OctalTristateIO.v"
+verilog work "i2cSlave.v"
+verilog work "Super_PWM.v"
