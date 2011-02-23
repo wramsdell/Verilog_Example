@@ -1,5 +1,0 @@
-verilog work "SPI_SerDes.v"
-verilog work "SPI_Slave.v"
-verilog work "ipcore_dir/blk_mem_gen_v4_3.v"
-verilog work "Clock_Block.v"
-verilog work "Super_PWM.v"
