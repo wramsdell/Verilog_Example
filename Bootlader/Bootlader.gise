@@ -42,6 +42,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="FPGA_Shield_Bootloader_Top.ut" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="FPGA_Shield_Bootloader_Top.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="FPGA_Shield_Bootloader_Top.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="FPGA_Shield_Bootloader_Top_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="FPGA_Shield_Bootloader_Top_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="FPGA_Shield_Bootloader_Top_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="FPGA_Shield_Bootloader_Top_map.mrp" xil_pn:subbranch="Map"/>
@@ -66,6 +67,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="fpga_shield_bootloader_top.bgn" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="fpga_shield_bootloader_top.bit" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="fpga_shield_bootloader_top.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
@@ -101,7 +103,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1290645958" xil_pn:in_ck="7114097325925906732" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-8960677655085054060" xil_pn:start_ts="1290645951">
+    <transform xil_pn:end_ts="1307867050" xil_pn:in_ck="9164157042436875179" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-8960677655085054060" xil_pn:start_ts="1307867043">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -119,11 +121,11 @@
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1290645958" xil_pn:in_ck="4369259639610933150" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-1914029308417346476" xil_pn:start_ts="1290645958">
+    <transform xil_pn:end_ts="1307867252" xil_pn:in_ck="4369259639610933150" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-1914029308417346476" xil_pn:start_ts="1307867252">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1290645962" xil_pn:in_ck="-8297827234992174090" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-4898197616878293961" xil_pn:start_ts="1290645958">
+    <transform xil_pn:end_ts="1307867256" xil_pn:in_ck="-8297827234992174090" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-4898197616878293961" xil_pn:start_ts="1307867252">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="FPGA_Shield_Bootloader_Top.bld"/>
@@ -132,7 +134,7 @@
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1290645968" xil_pn:in_ck="-9194175520273622089" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="6608043158038856776" xil_pn:start_ts="1290645962">
+    <transform xil_pn:end_ts="1307867261" xil_pn:in_ck="-9194175520273622089" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="6608043158038856776" xil_pn:start_ts="1307867256">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -147,7 +149,7 @@
       <outfile xil_pn:name="FPGA_Shield_Bootloader_Top_usage.xml"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1290645980" xil_pn:in_ck="-3591028923280945904" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="2291347242108231801" xil_pn:start_ts="1290645968">
+    <transform xil_pn:end_ts="1307867276" xil_pn:in_ck="-3591028923280945904" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="2291347242108231801" xil_pn:start_ts="1307867261">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -162,7 +164,7 @@
       <outfile xil_pn:name="FPGA_Shield_Bootloader_Top_par.xrpt"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1290645983" xil_pn:in_ck="4369259639610925525" xil_pn:name="TRANEXT_bitFile_spartan3a" xil_pn:prop_ck="-426368325978129584" xil_pn:start_ts="1290645980">
+    <transform xil_pn:end_ts="1307867285" xil_pn:in_ck="4369259639610925525" xil_pn:name="TRANEXT_bitFile_spartan3a" xil_pn:prop_ck="-426368325978129584" xil_pn:start_ts="1307867276">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="FPGA_Shield_Bootloader_Top.ut"/>
@@ -170,10 +172,11 @@
       <outfile xil_pn:name="fpga_shield_bootloader_top.bgn"/>
       <outfile xil_pn:name="fpga_shield_bootloader_top.bit"/>
       <outfile xil_pn:name="fpga_shield_bootloader_top.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1290645980" xil_pn:in_ck="-1556666305379795917" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1290645977">
+    <transform xil_pn:end_ts="1307867276" xil_pn:in_ck="-1556666305379795917" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1307867273">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="FPGA_Shield_Bootloader_Top.twr"/>

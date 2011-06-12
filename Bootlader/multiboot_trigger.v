@@ -74,8 +74,8 @@ reg  	[7:0]	icap_byte6     = 16'h00 ; //Second Image Address (low word) = 00 00
 reg  	[7:0]	icap_byte7     = 16'h00 ;
 reg  	[7:0]	icap_byte8     = 16'h32 ; //Write 'GENERAL2' = 32 81
 reg  	[7:0]	icap_byte9     = 16'h81 ;
-reg  	[7:0]	icap_byte10    = 16'h0B ; //Second Image Address (high word) = 0B 01
-reg  	[7:0]	icap_byte11    = 16'h01 ;
+reg  	[7:0]	icap_byte10    = 16'h00 ; //Second Image Address (high word) = 00 02
+reg  	[7:0]	icap_byte11    = 16'h02 ;
 reg  	[7:0]	icap_byte12    = 16'h30 ; //'Type 1 Write CMD' = 30 A1
 reg  	[7:0]	icap_byte13    = 16'hA1 ;
 reg  	[7:0]	icap_byte14    = 16'h00 ; //'REBOOT' command = 00 0E
