@@ -25,13 +25,11 @@ module FPGA_Shield_Bootloader_Top(
     output MISO,
     inout SCLK,
     input SS,
-	 inout LED_RED_IN,
-	 inout LED_GREEN_IN,
     output LED_RED,
     output LED_GREEN
     );
 
-reg PowerOnButtonState;
+reg PowerOnButtonState=0;
 reg ButtonStateLatched=0;
 
 wire MISO_int;
@@ -47,10 +45,12 @@ reg LED_GREEN_int_ena;
 reg LED_RED_int_ena;
 reg SPItrig=0;
 reg [5:0] MclkDiv_Count;
-
+reg [15:0] redLedShift=16'b0000000000000000;
+reg [15:0] greenLedShift=16'b1010000000000000;
+reg [20:0] ledCnt;
 assign TRIGGER = !PowerOnButtonState|SPItrig;
-assign LED_GREEN=LED_GREEN_IN|(LED_GREEN_int&LED_GREEN_int_ena);
-assign LED_RED=LED_RED_IN|(LED_RED_int&LED_RED_int_ena);
+assign LED_GREEN=(greenLedShift[0]&!LED_GREEN_int_ena)|(LED_GREEN_int&LED_GREEN_int_ena);
+assign LED_RED=(redLedShift[0]&!LED_RED_int_ena)|(LED_RED_int&LED_RED_int_ena);
 assign MISO = MISO_int;
 
 always @(posedge CLK) begin
@@ -60,7 +60,7 @@ always @(posedge CLK) begin
                 {LED_GREEN_int_ena,LED_RED_int_ena} <= spiAddr[1:0];
                 {LED_GREEN_int,LED_RED_int} <= spiAddr[3:2];
             end
-				8'h02: begin //LED Control
+            8'h02: begin //Multiboot Control
                 SPItrig=spiAddr[0];
             end
             default: begin
@@ -70,10 +70,10 @@ always @(posedge CLK) begin
 end
 
 always @(posedge CLK) begin
-  if (ButtonStateLatched==0) begin
-      PowerOnButtonState<=BUTTON;
-		ButtonStateLatched<=1;
-  end
+    if (ButtonStateLatched==0) begin
+        PowerOnButtonState<=BUTTON;
+        ButtonStateLatched<=1;
+    end
 end
 
 SPI_ACCESS #(
@@ -110,8 +110,18 @@ always @(posedge CLK) begin
     MclkDiv_Count <= MclkDiv_Count+1;
 end
 
-PULLDOWN PD1(.O (LED_RED_IN));
-PULLDOWN PD2(.O (LED_GREEN_IN));
 PULLDOWN PD3(.O (SCLK));
 multiboot_trigger mbt(.trigger(TRIGGER),.clk(MHzClk));
+
+always @(posedge CLK) begin
+    if (ledCnt==1562499) begin // 1/16th of a second
+        ledCnt <= 21'h00;
+        redLedShift[15:1]<=redLedShift[14:0];
+        redLedShift[0]<=redLedShift[15];
+        greenLedShift[15:1]<=greenLedShift[14:0];
+        greenLedShift[0]<=greenLedShift[15];
+    end
+    else
+        ledCnt <= ledCnt+1;
+end
 endmodule
