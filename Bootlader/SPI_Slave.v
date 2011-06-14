@@ -82,7 +82,12 @@ always @(posedge CLK) begin
         ByteCnt<=0;
     end
     else if (SPIStrobe) begin
-        ByteCnt<=ByteCnt+1;
+        if (ByteCnt==6) begin
+            ByteCnt<=6;  //If somebody's sending us more than 6 bytes, just spin after the sixth
+        end
+        else begin
+            ByteCnt<=ByteCnt+1;
+        end
         case (ByteCnt)
             3'h0:begin
                 OUT0Int<=SPIOut;
@@ -107,6 +112,9 @@ always @(posedge CLK) begin
             3'h5:begin
                 OUT5Int<=SPIOut;
                 OUTStrobeDly<=6'b100000;
+            end
+            default: begin
+                OUTStrobeDly<=6'b000000;
             end
         endcase
     end

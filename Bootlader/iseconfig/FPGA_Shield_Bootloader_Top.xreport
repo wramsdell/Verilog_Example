@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2011-06-12T16:36:26</DateModified>
+  <DateModified>2011-06-13T15:22:15</DateModified>
   <ModuleName>FPGA_Shield_Bootloader_Top</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/FPGA_Projects/Verilog_Example/Bootlader/iseconfig/FPGA_Shield_Bootloader_Top.xreport</SavedFilePath>
