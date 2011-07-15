@@ -8,7 +8,7 @@
 <!-- Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1648" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/FPGA_Projects/Verilog_Example/Bootlader/SPI_Slave.v\&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1648" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/FPGA_Projects/Verilog_Example/Bootlader/FPGA_Shield_Bootloader_Top.v\&quot; into library work</arg>
 </msg>
 
 </messages>

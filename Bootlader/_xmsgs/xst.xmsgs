@@ -17,7 +17,7 @@
 <msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">outStrobe&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">ButtonStateLatched</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">FPGA_Shield_Bootloader_Top</arg>.
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">ButtonStateLatched</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">FPGA_Shield_Bootloader_Top</arg>.
 You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
 </msg>
 
@@ -63,7 +63,7 @@ You should achieve better results by setting this init to <arg fmt="%i" index="3
 <msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OUTStrobeInt_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SS1</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">ButtonStateLatched</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">FPGA_Shield_Bootloader_Top</arg>.
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">ButtonStateLatched</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">FPGA_Shield_Bootloader_Top</arg>.
 You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
 </msg>
 
